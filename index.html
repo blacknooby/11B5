@@ -20,7 +20,8 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 	<body class="demo-1 loading">
 		<main>
 			<div class="message">Please view this demo on a desktop to see the effect.</div>
-			   						</div>
+			   						<div class="frame">
+			</div>
 			<div class="content">
 				<div class="grid">
 					<div class="grid__item pos-2"><div class="grid__item-img" style="background-image:url(./img1.png);" class="hover" ></div></div>
@@ -41,6 +42,26 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 					<span class="content__title-sub">Chúc các bạn nữ 11B5 8/3 đẹp như hoa</span>
 				</h2>
 			</div>
+			    <div style="display:none">
+            <audio id="audio" src="https://cdn.glitch.global/42608219-229e-43fe-9255-60d1488b3ad5/yt5s.com%20-%20Super%20Idol%20(lyrics%2Bvietsub)(%20Japanese%20lofi%20Ver)%20_%20JW%20MUSIC%20(128%20kbps).mp3?v=1641809614208" controls="controls" autoplay></audio>
+        </div>
+        <script> 
+            document.addEventListener('keydown', function (event) {
+                if (event.keyCode === 13) {
+                    play();
+                }
+            })
+            document.addEventListener('mousemove', play)
+            document.addEventListener('mouseup', play)
+            document.addEventListener('mousedown', play)
+            document.addEventListener('click', play)
+            function play() {
+                document.getElementById('audio').play();
+            }
+        </script>
+    </style>
+</script>
+</script>
 		</main>
         <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
 			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
